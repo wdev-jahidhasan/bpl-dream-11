@@ -30,7 +30,7 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
     "price": 1600000,
-    "playerImage": "https://example.com/images/ben_stokes.jpg"
+    "playerImage": "https://i.ibb.co.com/Nn3w8Rnr/Ben-Stokes.png"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
     "price": 1550000,
-    "playerImage": "https://example.com/images/jasprit_bumrah.jpg"
+    "playerImage": "https://i.ibb.co.com/SwzRBZ8v/Jasprit-Bumrah-in-PMO-New-Delhi.jpg"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm orthodox",
     "price": 1450000,
-    "playerImage": "https://example.com/images/shakib_al_hasan.jpg"
+    "playerImage": "https://i.ibb.co.com/cGWPxSd/shakib-al-hassan.webp"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm leg break",
     "price": 1500000,
-    "playerImage": "https://example.com/images/steve_smith.jpg"
+    "playerImage": "https://i.ibb.co.com/Ng9WhgPz/steven-smith-australia-cricketer.webp"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
     "price": 1480000,
-    "playerImage": "https://example.com/images/kane_williamson.jpg"
+    "playerImage": "https://i.ibb.co.com/mCKSzs2L/kane-williamson.jpg"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Left-arm fast-medium",
     "price": 1350000,
-    "playerImage": "https://example.com/images/trent_boult.jpg"
+    "playerImage": "https://i.ibb.co.com/FqsfYf1f/t-bolt.jpg"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
     "price": 1490000,
-    "playerImage": "https://example.com/images/babar_azam.jpg"
+    "playerImage": "https://i.ibb.co.com/5hYxbzC3/Babar-Azam.webp"
   },
   {
     "id": 10,
@@ -107,6 +107,6 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "None",
     "price": 1420000,
-    "playerImage": "https://example.com/images/jos_buttler.jpg"
+    "playerImage": "https://i.ibb.co.com/5XWPMXpc/Jos-Buttler.png"
   }
 ]
