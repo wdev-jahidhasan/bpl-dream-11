@@ -1,18 +1,17 @@
 import React, { use, useState } from 'react';
 import AvailablePlayers from '../players/AvailablePlayers/AvailablePlayers';
+import SelectedPlayers from './SelectedPlayers/SelectedPlayers';
 
-const Players = ({playersPromise}) => {
-  console.log(playersPromise);
+const Players = ({playersPromise, setCoin, coin}) => {
   const players = use(playersPromise);
   
 
   const [selectedType, setSelectedType] = useState('available');
-  console.log(selectedType, "selectedType");
   return (
     <div className='container mx-auto my-[60px]'>
 
       <div className='flex justify-between items-center gap-4 mb-[20px]'>
-        <h2 className='font-bold text-3xl'>Available Players</h2>
+        {selectedType === "available" ? <h2 className='font-bold text-3xl'>Available Players</h2> : <h2 className='font-bold text-3xl'>Selected Players (2/6)</h2>}
         
         <div>
           <button
@@ -20,11 +19,11 @@ const Players = ({playersPromise}) => {
            className={`btn ${selectedType === "available" ? "bg-[#E7FE29]" : "" } rounded-r-none rounded-l-xl`}>Available</button>
           <button
           onClick={()=> setSelectedType("selected")}
-          className={`btn ${selectedType === "selected" ? "bg-[#E7FE29]" : "" } rounded-l-none rounded-r-xl`}>Selected</button>
+          className={`btn ${selectedType === "selected" ? "bg-[#E7FE29]" : "" } rounded-l-none rounded-r-xl`}>Selected (0)</button>
         </div>
       </div>
 
-      <AvailablePlayers players={players}></AvailablePlayers>
+      {selectedType === "available" ? <AvailablePlayers players={players} setCoin={setCoin} coin={coin}></AvailablePlayers> : <SelectedPlayers></SelectedPlayers>}
     </div>
   );
 };

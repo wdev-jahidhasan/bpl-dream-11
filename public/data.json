@@ -7,7 +7,7 @@
     "rating": 9.5,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
-    "price": 1500000,
+    "price": 150000,
     "playerImage": "https://i.ibb.co.com/Zph8T0F2/Virat-Kohli-in-PMO-New-Delhi.jpg"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 9.0,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
-    "price": 1400000,
+    "price": 1400,
     "playerImage": "https://i.ibb.co.com/VYGFV2rB/Joe-Root.png"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 9.2,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
-    "price": 1600000,
+    "price": 1600,
     "playerImage": "https://i.ibb.co.com/Nn3w8Rnr/Ben-Stokes.png"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 9.3,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
-    "price": 1550000,
+    "price": 1550,
     "playerImage": "https://i.ibb.co.com/vCXZptrG/bumrah-2.jpg"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 9.1,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm orthodox",
-    "price": 1450000,
+    "price": 1450,
     "playerImage": "https://i.ibb.co.com/cGWPxSd/shakib-al-hassan.webp"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 9.4,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm leg break",
-    "price": 1500000,
+    "price": 1500,
     "playerImage": "https://i.ibb.co.com/Ng9WhgPz/steven-smith-australia-cricketer.webp"
   },
   {
@@ -73,7 +73,7 @@
     "rating": 9.3,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
-    "price": 1480000,
+    "price": 1480,
     "playerImage": "https://i.ibb.co.com/mCKSzs2L/kane-williamson.jpg"
   },
   {
@@ -84,7 +84,7 @@
     "rating": 9.0,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Left-arm fast-medium",
-    "price": 1350000,
+    "price": 1350,
     "playerImage": "https://i.ibb.co.com/FqsfYf1f/t-bolt.jpg"
   },
   {
@@ -95,7 +95,7 @@
     "rating": 9.4,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
-    "price": 1490000,
+    "price": 1490,
     "playerImage": "https://i.ibb.co.com/5hYxbzC3/Babar-Azam.webp"
   },
   {
@@ -106,7 +106,7 @@
     "rating": 9.2,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "None",
-    "price": 1420000,
+    "price": 1420,
     "playerImage": "https://i.ibb.co.com/5XWPMXpc/Jos-Buttler.png"
   }
 ]
