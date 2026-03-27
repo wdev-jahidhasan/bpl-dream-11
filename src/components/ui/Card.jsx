@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaUser } from "react-icons/fa";
 import { FaFlag } from "react-icons/fa";
 
-const Card = ({ player, setCoin, coin }) => {
+const Card = ({ player, setCoin, coin, selectedPlayers, setSelectedPlayers }) => {
 
   const [isSelected, setIsSelected] = useState(false);
 
@@ -18,6 +18,7 @@ const Card = ({ player, setCoin, coin }) => {
 
     alert(`${player.playerName} is selected`)
     setIsSelected(true); 
+    setSelectedPlayers([...selectedPlayers, player])
   }
     
 
@@ -53,7 +54,7 @@ const Card = ({ player, setCoin, coin }) => {
 
         <div className="card-actions justify-between items-center">
           <p className='font-semibold'>Price: {player.price} Taka</p>
-          <button className="btn" onClick={handleChoosePlayer} disabled={isSelected}>
+          <button className="btn btn-soft btn-primary" onClick={handleChoosePlayer} disabled={isSelected}>
             {isSelected === true ? "Selected" : "Choose Player"}
           </button>
         </div>
